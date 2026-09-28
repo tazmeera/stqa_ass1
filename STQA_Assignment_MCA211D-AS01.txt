@@ -1,0 +1,760 @@
+==========================================================================
+ASSIGNMENT: SOFTWARE TESTING AND QUALITY ASSURANCE (MCA 2nd YEAR)
+Course Code: MCA211D-AS01
+COER University
+==========================================================================
+
+Name        : ______________________
+Roll No.    : ______________________
+Section     : ______________________
+
+
+--------------------------------------------------------------------------
+Q1. What is Software Testing? Explain its objectives and importance.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+Software Testing is the process of executing a software application or
+system with the intention of finding defects (bugs), and of checking whether
+the software meets the specified requirements and works as expected. It
+compares the actual behaviour of the software with the expected behaviour.
+
+OBJECTIVES OF SOFTWARE TESTING:
+1. To find defects (errors, faults, failures) as early as possible.
+2. To verify that the software meets the business and user requirements.
+3. To build confidence in the quality of the software.
+4. To prevent defects from reaching the end user or production.
+5. To ensure the software is reliable, secure, and performs well.
+6. To provide the stakeholders with information so they can make decisions
+   about the release of the product.
+7. To check that the software complies with standards and regulations.
+
+IMPORTANCE OF SOFTWARE TESTING:
+1. Cost saving: A defect found early is much cheaper to fix than one found
+   after release.
+2. Quality: It improves the overall quality and reliability of the product.
+3. Security: It reveals vulnerabilities that could be exploited by attackers.
+4. Customer satisfaction: A defect-free product gives a better user
+   experience and builds trust.
+5. Reputation: Failures in production (e.g. in banking or healthcare
+   software) can cause financial loss, legal trouble and damage to the
+   brand.
+6. Safety: In critical systems (aviation, medical, automotive) testing can
+   prevent loss of life.
+
+
+--------------------------------------------------------------------------
+Q2. What is Software Quality Assurance (SQA)? Explain its role in software
+    development.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+Software Quality Assurance (SQA) is a systematic, process-oriented set of
+activities that ensures the software development and maintenance processes
+are properly defined, followed, and continuously improved so that the final
+product meets the required quality standards. It focuses on preventing
+defects rather than detecting them.
+
+ROLE OF SQA IN SOFTWARE DEVELOPMENT:
+1. Defining and establishing standards, procedures and methodologies for
+   development.
+2. Ensuring that the defined processes are actually followed by the team.
+3. Preventing defects by improving the process (proactive approach).
+4. Conducting reviews, walkthroughs, inspections and audits of work
+   products.
+5. Monitoring quality metrics (defect density, defect removal efficiency,
+   etc.).
+6. Managing risks related to quality throughout the project.
+7. Providing management with visibility into project quality.
+8. Ensuring proper documentation and configuration management.
+9. Encouraging continuous process improvement.
+
+
+--------------------------------------------------------------------------
+Q3. Differentiate between Software Testing and Quality Assurance.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+Basis          | Software Testing               | Quality Assurance (QA)
+---------------|--------------------------------|----------------------------------
+Definition     | Executing the software to find | Set of activities to ensure the
+               | defects.                       | process used to build software
+               |                                | is correct.
+Focus          | Product oriented               | Process oriented
+Approach       | Corrective / detective         | Preventive
+Goal           | To identify and fix bugs       | To prevent bugs from occurring
+Scope          | A part of the QA process       | Covers the whole SDLC
+Activities     | Test planning, test case       | Audits, process definition,
+               | design, execution, defect      | standards, training, reviews,
+               | reporting                      | metrics
+Performed by   | Testers                        | QA team / management
+Timing         | After (or during) coding       | Throughout the development life
+               |                                | cycle
+Example        | Running login test cases       | Defining a code review process
+
+
+--------------------------------------------------------------------------
+Q4. Explain the major objectives of Software Quality Assurance.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+The major objectives of SQA are:
+
+1. Quality improvement: To improve the quality of the software product by
+   improving the process used to develop it.
+2. Defect prevention: To prevent defects early in the life cycle instead of
+   finding them late.
+3. Compliance with standards: To make sure the project follows the
+   organisational and international standards (ISO 9001, CMMI, IEEE).
+4. Requirement conformance: To ensure that the software meets the specified
+   functional and non-functional requirements.
+5. Process monitoring: To verify that the defined processes and procedures
+   are being followed.
+6. Visibility: To give management and stakeholders clear information about
+   the quality status of the project.
+7. Risk reduction: To identify and reduce quality risks early.
+8. Customer satisfaction: To deliver a product that satisfies user needs and
+   expectations.
+9. Continuous improvement: To collect feedback and metrics and continually
+   improve processes.
+10. Cost and time control: To reduce rework, and so reduce cost and delays.
+
+
+--------------------------------------------------------------------------
+Q5. What is the difference between Quality Assurance (QA) and Quality
+    Control (QC)?
+--------------------------------------------------------------------------
+
+ANSWER:
+
+Quality Assurance (QA) is a process-oriented activity that aims to prevent
+defects by making sure the right processes and standards are followed.
+Quality Control (QC) is a product-oriented activity that aims to identify
+defects in the finished product by inspection and testing.
+
+Basis          | Quality Assurance (QA)         | Quality Control (QC)
+---------------|--------------------------------|----------------------------------
+Nature         | Process oriented               | Product oriented
+Approach       | Preventive                     | Detective / corrective
+Objective      | Prevent defects                | Identify and fix defects
+Focus          | "Are we building the product   | "Are we building the right
+               | the right way?"                | product?" (checking the output)
+Timing         | Throughout the SDLC            | After the product (or a part of
+               |                                | it) is built
+Activities     | Audits, process definition,    | Testing, inspection, reviews of
+               | training, standards            | the product
+Type           | Proactive                      | Reactive
+Responsibility | Whole team / QA team           | Testing team
+Example        | Defining coding standards      | Running test cases to find bugs
+
+
+--------------------------------------------------------------------------
+Q6. Explain the role and responsibilities of a Software Quality Assurance
+    Engineer.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+A Software Quality Assurance Engineer is responsible for making sure that
+the software development process and the final product meet the defined
+quality standards. He/she works with developers, testers, business analysts
+and managers throughout the SDLC.
+
+ROLE AND RESPONSIBILITIES:
+1. Understand the requirements and review them for clarity, completeness and
+   testability.
+2. Prepare the SQA plan, test strategy and test plans.
+3. Define, implement and improve quality standards, processes and
+   procedures.
+4. Design test cases and test scenarios, and prepare test data.
+5. Execute manual and automated tests and report defects.
+6. Track defects until closure, and verify fixes (re-testing and regression
+   testing).
+7. Conduct reviews, walkthroughs, inspections and process audits.
+8. Collect and analyse quality metrics (defect density, test coverage,
+   defect leakage) and prepare reports.
+9. Perform root cause analysis of defects and suggest corrective and
+   preventive actions.
+10. Ensure documentation is complete and maintained.
+11. Train team members on quality practices.
+12. Communicate quality status and risks to stakeholders.
+13. Take part in release decisions (go / no-go).
+14. Promote continuous improvement.
+
+SKILLS REQUIRED: Analytical thinking, knowledge of SDLC and testing
+techniques, familiarity with tools (Selenium, JIRA, Postman, etc.),
+communication and attention to detail.
+
+
+--------------------------------------------------------------------------
+Q7. Explain the relationship between Software Testing, Quality Assurance,
+    and Quality Control.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+Quality Assurance, Quality Control and Testing are related, and together
+they achieve software quality, but they work at different levels.
+
+- Quality Assurance (QA) is the broadest concept. It covers the whole
+  process: standards, methods, audits, reviews, training. It is preventive.
+- Quality Control (QC) is a subset of QA. It is a set of activities
+  (inspection, reviews, testing) to check that the product meets the quality
+  requirements. It is detective.
+- Software Testing is a subset of QC. It is the actual execution of the
+  software to find defects.
+
+Hierarchy:
+
+        +--------------------------------------------+
+        |  Quality Assurance (Process - Prevention)  |
+        |   +-------------------------------------+  |
+        |   | Quality Control (Product - Detection)|  |
+        |   |   +-----------------------------+   |  |
+        |   |   |      Software Testing       |   |  |
+        |   |   +-----------------------------+   |  |
+        |   +-------------------------------------+  |
+        +--------------------------------------------+
+
+In short: QA makes sure we are following the right process (prevent), QC
+checks that the product is correct (detect), and Testing is the main
+technique used by QC to find bugs. The findings from testing and QC are fed
+back to QA to improve the process, which forms a cycle of improvement.
+
+
+--------------------------------------------------------------------------
+Q8. What are the different activities performed during Software Quality
+    Assurance?
+--------------------------------------------------------------------------
+
+ANSWER:
+
+The main SQA activities are:
+
+1. SQA Planning: Preparing the SQA plan that defines the standards, tools,
+   reviews, audits, and metrics to be used.
+2. Defining standards and processes: Selecting standards (ISO, IEEE, CMMI)
+   and defining procedures for development.
+3. Requirement reviews: Checking requirements for completeness, consistency
+   and testability.
+4. Design and code reviews: Peer reviews, walkthroughs and technical
+   inspections.
+5. Testing activities: Test planning, test case design, execution, and
+   defect reporting.
+6. Process audits and reviews: Checking that the team follows the defined
+   process.
+7. Configuration management: Managing changes, version control and
+   baselines.
+8. Defect management: Recording, tracking and analysing defects, and root
+   cause analysis.
+9. Metrics collection and analysis: Measuring quality (defect density, test
+   coverage, defect removal efficiency).
+10. Risk management: Identifying and reducing quality risks.
+11. Training: Educating the team on standards and tools.
+12. Reporting: Giving reports to management on quality status.
+13. Process improvement: Recommending changes based on feedback and
+    metrics.
+
+
+--------------------------------------------------------------------------
+Q9. Explain how Software Testing helps in improving software quality.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+Software testing improves quality in the following ways:
+
+1. Detects defects early: Bugs are found and fixed before release, so the
+   product is more stable.
+2. Ensures requirement conformance: Testing verifies that every requirement
+   is implemented correctly.
+3. Improves reliability: Repeated testing under different conditions
+   reduces failures in production.
+4. Improves performance: Performance and load testing find bottlenecks
+   and make the software fast and scalable.
+5. Improves security: Security testing finds vulnerabilities and protects
+   user data.
+6. Improves usability: Usability testing ensures the software is easy to
+   use.
+7. Ensures compatibility: The software is checked on various devices,
+   browsers and operating systems.
+8. Reduces cost: Fixing defects early is cheaper than post-release fixes.
+9. Builds confidence: Test results give stakeholders confidence to release.
+10. Provides measurable data: Test metrics show the state of the product
+    and help in decisions.
+11. Prevents regression: Regression testing ensures new changes do not break
+    existing features.
+
+
+--------------------------------------------------------------------------
+Q10. What is a Quality Management System (QMS)? Explain its importance in
+     software development.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+A Quality Management System (QMS) is a formalised system that documents the
+processes, procedures, responsibilities and resources needed to achieve
+quality objectives and to consistently meet customer requirements. In
+software, it defines how software is planned, developed, tested, released
+and maintained with quality in mind. ISO 9001 is a well-known QMS standard.
+
+COMPONENTS OF A QMS:
+- Quality policy and quality objectives
+- Documented processes and procedures
+- Roles and responsibilities
+- Resources and training
+- Monitoring, measurement and audits
+- Corrective and preventive actions
+- Continual improvement
+
+IMPORTANCE OF QMS IN SOFTWARE DEVELOPMENT:
+1. Provides a consistent and standard way of working across projects.
+2. Improves product quality and reduces defects.
+3. Increases customer satisfaction and trust.
+4. Reduces rework, cost and delivery time.
+5. Improves the efficiency and productivity of teams.
+6. Helps meet legal, regulatory and contractual requirements.
+7. Provides better documentation and traceability.
+8. Supports risk management and decision-making based on data.
+9. Provides a framework for continuous improvement.
+10. Gives competitive advantage and helps in certification (ISO, CMMI).
+
+
+--------------------------------------------------------------------------
+Q11. Explain the importance of standards, processes, and documentation in
+     Software Quality Assurance.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+STANDARDS
+Standards (e.g. ISO 9001, ISO/IEC 25010, IEEE 829, CMMI, coding standards)
+are agreed rules and guidelines for building software.
+- They ensure consistency and uniformity across the project.
+- They provide a benchmark against which quality can be measured.
+- They make the software easier to maintain and understand.
+- They help in complying with legal and customer requirements.
+- They allow easier communication and integration between teams.
+
+PROCESSES
+A process is a defined set of steps to carry out development and testing
+activities (e.g. requirement analysis process, review process, change
+management, defect management).
+- They make the work repeatable and predictable.
+- They reduce dependence on individuals.
+- They help in preventing defects.
+- They make it possible to measure and improve performance.
+- They ensure everyone follows the same best practices.
+
+DOCUMENTATION
+Documentation includes SRS, design documents, test plans, test cases, user
+manuals, defect reports and review records.
+- It provides a clear record of requirements, decisions and results.
+- It supports traceability from requirements to test cases.
+- It helps new team members understand the system.
+- It is evidence for audits and reviews.
+- It makes maintenance and future enhancements easier.
+- It improves communication between stakeholders.
+
+Together, standards define WHAT is expected, processes define HOW to do it,
+and documentation records EVIDENCE that it was done.
+
+
+--------------------------------------------------------------------------
+Q12. What is a Software Quality Assurance Plan (SQAP)? Explain its major
+     components.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+A Software Quality Assurance Plan (SQAP) is a formal document that describes
+the quality activities, standards, procedures, tools, responsibilities and
+schedule that will be used to ensure a software project meets its quality
+goals. It is usually prepared at the start of the project (IEEE 730 provides
+a standard format).
+
+MAJOR COMPONENTS OF AN SQAP:
+1. Purpose and Scope: Aim of the plan and the products and activities it
+   covers.
+2. Reference Documents: Standards and documents referred to (SRS, IEEE
+   standards, etc.).
+3. Management: Organisation structure, roles, responsibilities and tasks of
+   the quality team.
+4. Documentation: List of documents to be produced and maintained (SRS,
+   design, test plan, user manual).
+5. Standards, Practices and Conventions: Coding, naming, design and
+   testing standards to be followed.
+6. Reviews and Audits: Types of reviews (walkthroughs, inspections) and
+   audits, and their schedule.
+7. Testing Strategy: Test levels, types, tools, entry and exit criteria.
+8. Problem Reporting and Corrective Action: How defects are logged,
+   tracked, and resolved.
+9. Tools, Techniques and Methodologies: Tools used for testing, defect
+   tracking and configuration management.
+10. Configuration / Change Management: Version control and change control
+    procedures.
+11. Metrics: Quality metrics to be collected (defect density, test coverage).
+12. Risk Management: Identified quality risks and mitigation.
+13. Training: Training needs for the project team.
+14. Records Collection, Maintenance and Retention: How quality records are
+    stored.
+
+
+--------------------------------------------------------------------------
+Q13. Explain the difference between Verification and Validation and discuss
+     their role in software quality.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+VERIFICATION: The process of evaluating work products (requirements, design,
+code, documents) to check whether they meet the specified requirements at
+each development stage. It answers: "Are we building the product RIGHT?"
+
+VALIDATION: The process of evaluating the final software to check that it
+meets the actual needs and expectations of the user. It answers: "Are we
+building the RIGHT product?"
+
+Basis         | Verification                    | Validation
+--------------|---------------------------------|--------------------------------
+Meaning       | Checks if the product conforms  | Checks if the product meets user
+              | to specifications               | needs
+Question      | Are we building the product     | Are we building the right
+              | right?                          | product?
+Type          | Static testing (no code         | Dynamic testing (code is
+              |  execution)                     | executed)
+Activities    | Reviews, walkthroughs,          | Functional testing, system
+              | inspections, desk checking      | testing, UAT
+Performed on  | Documents, design, code         | Actual working software
+Timing        | Early phases, before execution  | After code is ready
+Done by       | QA team, developers, peers      | Testers, end users, customers
+Error type    | Finds errors in documents and   | Finds errors in the working
+              | design                          | product
+
+ROLE IN SOFTWARE QUALITY:
+- Verification finds defects early (in requirements and design) where fixing
+  costs less.
+- Validation ensures the final product actually satisfies the customer.
+- Together they cover the whole SDLC (as in the V-Model) and give complete
+  assurance that the product is both built correctly and is the correct
+  product.
+
+
+--------------------------------------------------------------------------
+Q14. Explain how defects can affect the overall quality of software.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+A defect (bug) is a flaw in the software that causes it to behave
+incorrectly or differently from the expected behaviour. Defects affect
+quality in many ways:
+
+1. Functionality: Features may not work correctly, or may be missing.
+2. Reliability: Frequent crashes and failures reduce trust in the software.
+3. Performance: Defects such as memory leaks and inefficient logic slow
+   down the system.
+4. Security: Defects such as SQL injection or weak authentication can lead
+   to data theft and breaches.
+5. Usability: Bugs in the interface or workflow frustrate users.
+6. Maintainability: Defective, tangled code is difficult to change and
+   leads to more defects.
+7. Cost: Defects found late are costly to fix (rework, patches, support).
+8. Schedule: Fixing defects delays release dates.
+9. Customer satisfaction: Users become dissatisfied and may switch to
+   competitors.
+10. Reputation and legal impact: Serious failures can cause financial loss,
+    penalties and loss of brand image.
+11. Safety: In critical systems, defects can even endanger human life.
+
+Severity of the impact depends on the type of defect (critical, major,
+minor, trivial) and where it occurs.
+
+
+--------------------------------------------------------------------------
+Q15 and Q16. A banking application frequently crashes during online
+             transactions. As a QA professional, explain what activities
+             you would perform to improve the quality of the application.
+--------------------------------------------------------------------------
+
+(Note: In the assignment sheet this question is split over numbers 15 and
+16, so it is answered together.)
+
+ANSWER:
+
+As a QA professional I would follow a structured approach:
+
+1. UNDERSTAND AND REPRODUCE THE PROBLEM
+   - Collect crash reports, error logs, screenshots and user complaints.
+   - Find out when it happens (peak hours, specific transaction types,
+     particular devices or browsers).
+   - Reproduce the crash in a test environment.
+
+2. ROOT CAUSE ANALYSIS
+   - Analyse server logs, database logs and stack traces with developers.
+   - Check for causes such as memory leaks, unhandled exceptions, database
+     deadlocks, timeouts, poor concurrency handling, network failures or
+     third-party payment gateway issues.
+
+3. REVIEW REQUIREMENTS, DESIGN AND CODE
+   - Review the transaction-related requirements and design for missing
+     scenarios.
+   - Conduct code reviews and static analysis of the transaction module.
+
+4. TESTING ACTIVITIES
+   - Functional testing of all transaction flows (transfer, payment, bill
+     pay, refund).
+   - Negative and boundary testing (invalid amount, insufficient balance,
+     session expiry, duplicate submission).
+   - Performance, load and stress testing to simulate thousands of
+     concurrent users.
+   - Endurance (soak) testing to find memory leaks.
+   - Failover and recovery testing (what happens if the network or server
+     drops in the middle of a transaction).
+   - Security testing (authentication, encryption, SQL injection, session
+     hijacking).
+   - Compatibility testing on different devices, browsers and OS versions.
+   - Integration testing with payment gateways and core banking systems.
+   - Data integrity testing (transaction atomicity, rollback, no double
+     debit).
+
+5. DEFECT MANAGEMENT
+   - Log defects in a tracking tool (e.g. JIRA) with priority and severity.
+   - Verify fixes with re-testing and run regression tests.
+
+6. PROCESS IMPROVEMENT (QA)
+   - Add automated regression and performance test suites in a CI/CD
+     pipeline.
+   - Define entry and exit criteria for release.
+   - Introduce monitoring and alerting in production.
+   - Update the test plan and test cases based on lessons learned.
+
+7. RELEASE AND POST-RELEASE
+   - Perform smoke and sanity testing after deployment.
+   - Monitor production and collect feedback.
+   - Track metrics like crash rate, transaction success rate and response
+     time.
+
+RESULT: A more stable, secure and reliable application, fewer crashes and
+higher customer trust.
+
+
+--------------------------------------------------------------------------
+Q17. Explain the importance of continuous improvement in Software Quality
+     Assurance.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+Continuous improvement means regularly reviewing and enhancing processes,
+practices and products in small, ongoing steps rather than one-time changes.
+A common model is the PDCA cycle (Plan - Do - Check - Act). Models like CMMI
+and ISO 9001 also stress continual improvement.
+
+IMPORTANCE:
+1. Improves quality: Recurring problems are found and removed from the
+   process.
+2. Reduces defects: Root cause analysis prevents the same defects from
+   happening again.
+3. Reduces cost: Less rework and fewer late-stage defects.
+4. Increases efficiency: Better tools, automation and practices save time.
+5. Adapts to change: New technologies, customer needs and market conditions
+   require processes to evolve.
+6. Increases customer satisfaction: Products keep meeting changing
+   expectations.
+7. Builds a learning culture: Teams learn from past projects (lessons
+   learned, retrospectives).
+8. Supports process maturity: Helps an organisation move up the CMMI
+   maturity levels.
+9. Data-driven decisions: Metrics show what to improve.
+10. Competitive advantage: Continuous quality gains make the organisation
+    stronger in the market.
+
+
+--------------------------------------------------------------------------
+Q18. What are the major challenges faced while implementing Software Quality
+     Assurance in an organization?
+--------------------------------------------------------------------------
+
+ANSWER:
+
+Major challenges include:
+
+1. Resistance to change: Employees may resist new processes and see SQA as
+   extra work or criticism.
+2. Lack of management support: Without commitment from top management,
+   quality initiatives fail.
+3. Limited budget and resources: SQA needs investment in people, tools and
+   training.
+4. Time pressure: Tight deadlines lead teams to skip reviews and testing.
+5. Lack of skilled people: Shortage of trained QA professionals and
+   knowledge of standards.
+6. Changing requirements: Frequent changes make it difficult to maintain
+   plans, test cases and documentation.
+7. Poor communication: Gaps between developers, testers, and clients cause
+   misunderstandings.
+8. Lack of clear standards and processes: Undefined or inconsistent
+   procedures.
+9. Difficulty in measuring quality: Quality is hard to quantify, and
+   selecting proper metrics is challenging.
+10. Documentation overhead: Teams may find documentation time-consuming.
+11. Tool and technology issues: Selecting, integrating and learning tools
+    (automation, CI/CD) is difficult.
+12. Cultural issues: A "developers vs testers" attitude, or the belief that
+    testing alone is enough.
+13. Distributed teams: Coordination in multi-location or outsourced
+    projects.
+14. Keeping up with new technologies: Cloud, AI, mobile and microservices
+    need new testing approaches.
+
+Solutions: Management commitment, training, clear processes, automation,
+early involvement of QA, and building a quality-first culture.
+
+
+--------------------------------------------------------------------------
+Q19. Explain the role of reviews, inspections, and audits in Software
+     Quality Assurance.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+These are static quality activities used to detect defects and check
+compliance without executing the code.
+
+1. REVIEWS
+   - A review is an examination of a work product (requirements, design,
+     code, test cases) by team members to find defects and suggest
+     improvements.
+   - Types: informal review (peer review), walkthrough, technical review.
+   - Role: find defects early, share knowledge, improve quality of
+     documents and code, and reduce cost of rework.
+
+2. INSPECTIONS
+   - An inspection is the most formal type of review, led by a trained
+     moderator (Fagan inspection). It has defined roles (moderator, author,
+     reader, inspector, recorder), entry and exit criteria, checklists and
+     a formal defect log.
+   - Role: systematically detect defects, measure the effectiveness of the
+     process, ensure that documents and code meet standards, and provide
+     data for process improvement.
+
+3. AUDITS
+   - An audit is an independent, formal examination of processes and work
+     products to check compliance with plans, standards and procedures.
+     Audits can be internal or external (by a customer or certifying body).
+   - Role: verify that the defined processes are actually followed, find
+     non-conformances, give evidence for certification (ISO, CMMI), and
+     recommend corrective actions.
+
+SUMMARY: Reviews and inspections mainly focus on the PRODUCT (finding
+defects in work products), while audits focus on the PROCESS (checking
+compliance). Together they improve quality, reduce defects early and
+support continuous improvement.
+
+
+--------------------------------------------------------------------------
+Q20. Explain how QA activities are performed throughout the Software
+     Development Life Cycle (SDLC).
+--------------------------------------------------------------------------
+
+ANSWER:
+
+QA is not done only at the end; it is integrated into every phase of the
+SDLC.
+
+1. REQUIREMENT ANALYSIS
+   - Review requirements (SRS) for clarity, completeness, consistency and
+     testability.
+   - Identify ambiguities and missing requirements.
+   - Start preparing the test strategy and acceptance criteria.
+
+2. PLANNING
+   - Prepare the SQA plan and test plan.
+   - Define standards, tools, resources, schedule and risks.
+
+3. DESIGN
+   - Review the system design and architecture (design walkthroughs).
+   - Check that design meets requirements and standards.
+   - Design test cases and test scenarios (using techniques like
+     equivalence partitioning and boundary value analysis).
+
+4. DEVELOPMENT / CODING
+   - Enforce coding standards.
+   - Conduct code reviews, static code analysis and unit testing.
+   - Manage version control and configuration.
+
+5. TESTING
+   - Execute integration, system, regression and acceptance testing.
+   - Report and track defects to closure.
+   - Perform performance, security and usability testing.
+   - Measure test coverage and defect metrics.
+
+6. DEPLOYMENT / RELEASE
+   - Verify release readiness using exit criteria.
+   - Perform smoke and sanity testing in production.
+   - Check release notes and documentation.
+
+7. MAINTENANCE
+   - Regression testing for patches and enhancements.
+   - Analyse customer-reported defects and do root cause analysis.
+   - Update test cases and processes based on feedback.
+
+Throughout the SDLC, audits, metrics collection, process monitoring and
+continuous improvement are also carried out. In models like the V-Model,
+each development phase has a matching testing phase.
+
+
+--------------------------------------------------------------------------
+Q21. Explain with a suitable real-world example how effective Software
+     Testing and Quality Assurance can improve customer satisfaction.
+--------------------------------------------------------------------------
+
+ANSWER:
+
+EXAMPLE: An E-commerce application (like Amazon or Flipkart) during a big
+sale event.
+
+WITHOUT effective testing and QA:
+- The website crashes because of heavy traffic.
+- Payments fail or money is deducted twice.
+- Wrong prices or discounts are displayed.
+- The mobile app hangs on some phones.
+- Customers get frustrated, abandon carts, post bad reviews and move to
+  competitors. The company loses revenue and reputation.
+
+WITH effective testing and QA:
+1. Requirement reviews make sure that all sale-time scenarios (coupons,
+   offers, payment options) are clearly defined.
+2. Functional testing checks search, cart, checkout, discounts and order
+   tracking.
+3. Load and stress testing simulate lakhs of users at the same time, so the
+   servers are scaled in advance.
+4. Security testing protects payment and personal data.
+5. Compatibility testing checks that the app works on different devices,
+   browsers and OS versions.
+6. Regression testing ensures that last-minute changes do not break existing
+   features.
+7. QA processes (code reviews, CI/CD, monitoring, audits) reduce defects
+   from the start.
+8. Feedback and defect analysis after the event help in continuous
+   improvement.
+
+RESULT:
+- The site remains fast and stable during the sale.
+- Payments are smooth and secure.
+- Fewer complaints and returns.
+- Higher customer trust, repeat purchases and positive reviews.
+- Increased sales and stronger brand reputation.
+
+Thus effective testing and QA directly improve customer satisfaction and
+loyalty.
+
+
+==========================================================================
+                              END OF ASSIGNMENT
+==========================================================================
