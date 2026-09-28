@@ -1,20 +1,8 @@
-==========================================================================
-ASSIGNMENT: SOFTWARE TESTING AND QUALITY ASSURANCE (MCA 2nd YEAR)
-Course Code: MCA211D-AS01
-COER University
-==========================================================================
+ASSIGNMENT: 1
 
-Name        : ______________________
-Roll No.    : ______________________
-Section     : ______________________
-
-
---------------------------------------------------------------------------
 Q1. What is Software Testing? Explain its objectives and importance.
---------------------------------------------------------------------------
 
 ANSWER:
-
 Software Testing is the process of executing a software application or
 system with the intention of finding defects (bugs), and of checking whether
 the software meets the specified requirements and works as expected. It
@@ -47,7 +35,6 @@ IMPORTANCE OF SOFTWARE TESTING:
 --------------------------------------------------------------------------
 Q2. What is Software Quality Assurance (SQA)? Explain its role in software
     development.
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -74,7 +61,6 @@ ROLE OF SQA IN SOFTWARE DEVELOPMENT:
 
 --------------------------------------------------------------------------
 Q3. Differentiate between Software Testing and Quality Assurance.
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -98,7 +84,6 @@ Example        | Running login test cases       | Defining a code review process
 
 --------------------------------------------------------------------------
 Q4. Explain the major objectives of Software Quality Assurance.
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -127,7 +112,6 @@ The major objectives of SQA are:
 --------------------------------------------------------------------------
 Q5. What is the difference between Quality Assurance (QA) and Quality
     Control (QC)?
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -155,7 +139,6 @@ Example        | Defining coding standards      | Running test cases to find bug
 --------------------------------------------------------------------------
 Q6. Explain the role and responsibilities of a Software Quality Assurance
     Engineer.
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -193,7 +176,6 @@ communication and attention to detail.
 --------------------------------------------------------------------------
 Q7. Explain the relationship between Software Testing, Quality Assurance,
     and Quality Control.
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -229,7 +211,6 @@ back to QA to improve the process, which forms a cycle of improvement.
 --------------------------------------------------------------------------
 Q8. What are the different activities performed during Software Quality
     Assurance?
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -262,7 +243,6 @@ The main SQA activities are:
 
 --------------------------------------------------------------------------
 Q9. Explain how Software Testing helps in improving software quality.
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -293,7 +273,6 @@ Software testing improves quality in the following ways:
 --------------------------------------------------------------------------
 Q10. What is a Quality Management System (QMS)? Explain its importance in
      software development.
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -328,7 +307,6 @@ IMPORTANCE OF QMS IN SOFTWARE DEVELOPMENT:
 --------------------------------------------------------------------------
 Q11. Explain the importance of standards, processes, and documentation in
      Software Quality Assurance.
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -368,7 +346,6 @@ and documentation records EVIDENCE that it was done.
 --------------------------------------------------------------------------
 Q12. What is a Software Quality Assurance Plan (SQAP)? Explain its major
      components.
---------------------------------------------------------------------------
 
 ANSWER:
 
@@ -408,8 +385,6 @@ MAJOR COMPONENTS OF AN SQAP:
 --------------------------------------------------------------------------
 Q13. Explain the difference between Verification and Validation and discuss
      their role in software quality.
---------------------------------------------------------------------------
-
 ANSWER:
 
 VERIFICATION: The process of evaluating work products (requirements, design,
@@ -447,7 +422,6 @@ ROLE IN SOFTWARE QUALITY:
 
 --------------------------------------------------------------------------
 Q14. Explain how defects can affect the overall quality of software.
---------------------------------------------------------------------------
 
 ANSWER:
 
